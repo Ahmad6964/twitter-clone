@@ -1,0 +1,39 @@
+.main-trend {
+  input{
+    width: 100%;
+    background-color: #EFF3F4;
+    border-radius: 30px;
+    border-style: none;
+    height: 40px;
+    padding: 10px;
+    margin-top: 5px;
+  }
+  .trend-content {
+    background-color: #F7F9F9;
+    margin-top: 10px;
+    // border-radius: 20px;
+    h3 {
+      padding: 20px;
+    }
+    a{
+        padding: 20px;
+        padding-bottom: 20px;
+    }
+    .trend-card {
+      cursor: pointer;
+      padding-left: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      line-height: 1;
+      &:hover {
+        background-color: #EFF1F1;
+      }
+    }
+  }
+  .follow {
+    background-color: rgb(234, 230, 230);
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 20px;
+  }
+}
