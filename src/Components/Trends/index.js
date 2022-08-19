@@ -22,9 +22,6 @@ const index = () => {
             })}
             <a href="">Show More</a>
           </div>
-          <div className="follow">
-            <h3>Who To Follow</h3>
-          </div>
         </div>
       </div>
     </>
