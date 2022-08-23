@@ -1,0 +1,15 @@
+main {
+    display: flex;
+    .menus {
+      width: 25%;
+      border-right: 1px solid rgb(210, 205, 205);
+    }
+    .feed {
+      width: 45%;
+  
+      border-right: 1px solid rgb(210, 205, 205);
+    }
+    .widget {
+      width: 30%;
+    }
+  }

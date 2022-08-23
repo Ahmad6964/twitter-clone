@@ -1,12 +1,26 @@
 import React from 'react'
-import "../Pages/Notification.scss";
-
-const Notification = () => {
+import "./Home.scss"
+import Menu from "../Components/Sidebar/index"
+import Feed from "../Components/Feeds/index"
+import Widget from "../Components/Widget/index"
+const Home = () => {
   return (
-    <div>
-      <h1>Notifications Page</h1>
-    </div>
+    
+    <>
+        <div className="main">
+            <div className='menus'>
+                <Menu/>
+            </div>
+            <div className='feed'>
+                <h1>Notifications page</h1>
+            </div>
+            <div className='widget'>
+              <Widget/>
+            </div>
+        </div>
+    </>
   )
 }
 
-export default Notification
+export default Home
+

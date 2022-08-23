@@ -6,10 +6,20 @@
   }
   .feed {
     width: 45%;
-
     border-right: 1px solid rgb(210, 205, 205);
-  }
+    overflow-y: scroll;
+    height: 100vh;
+    
+}
   .widget {
     width: 30%;
+    overflow-y: auto;
+    // height: 100vh;
   }
+}
+.feed::-webkit-scrollbar {
+  width: 0px;
+}
+.widget::-webkit-scrollbar {
+  width: 0px;
 }

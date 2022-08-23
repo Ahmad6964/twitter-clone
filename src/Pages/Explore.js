@@ -1,12 +1,26 @@
 import React from 'react'
-import "../Pages/Explore.scss";
-
-const Explore = () => {
+import "./Home.scss"
+import Menu from "../Components/Sidebar/index"
+import Feed from "../Components/Feeds/index"
+import Widget from "../Components/Widget/index"
+const Home = () => {
   return (
-    <div>
-      <h1>Explore page</h1>
-    </div>
+    
+    <>
+        <div className="main">
+            <div className='menus'>
+                <Menu/>
+            </div>
+            <div className='feed'>
+                <h1>Explore page</h1>
+            </div>
+            <div className='widget'>
+              <Widget/>
+            </div>
+        </div>
+    </>
   )
 }
 
-export default Explore
+export default Home
+

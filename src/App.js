@@ -9,15 +9,17 @@ import Bookmarks from "../src/Pages/Bookmarks";
 import Lists from "../src/Pages/Lists";
 import Profile from "../src/Pages/Profile";
 import More from "../src/Pages/More";
+import Login from "./Components/Login"
 
 
 function App() {
   return (
     <>
-    {/* <Home/> */}
+     
     <BrowserRouter>
-     <Routes>
-       <Route path="/" element={<Home/>}/>
+     <Routes> 
+      <Route path="/" element={<Login/>}/>
+       <Route path="/home" element={<Home/>}/>
        <Route path="Explore" element={<Explore/>}/>
        <Route path="Notification" element={<Notification/>}/>
        <Route path="Messages" element={<Messages/>}/>
@@ -25,6 +27,7 @@ function App() {
        <Route path="Lists" element={<Lists/>}/>
        <Route path="Profile" element={<Profile/>}/>
        <Route path="More" element={<More/>}/>
+      
        
      </Routes>
      </BrowserRouter>

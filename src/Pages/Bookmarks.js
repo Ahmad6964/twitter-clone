@@ -1,12 +1,26 @@
 import React from 'react'
-import "../Pages/Bookmarks.scss"
-
-const Bookmarks = () => {
+import "./Home.scss"
+import Menu from "../Components/Sidebar/index"
+import Feed from "../Components/Feeds/index"
+import Widget from "../Components/Widget/index"
+const Home = () => {
   return (
-    <div>
-      <h1>Bookmarks page</h1>
-    </div>
+    
+    <>
+        <div className="main">
+            <div className='menus'>
+                <Menu/>
+            </div>
+            <div className='feed'>
+                <h1>Bookmarks page</h1>
+            </div>
+            <div className='widget'>
+              <Widget/>
+            </div>
+        </div>
+    </>
   )
 }
 
-export default Bookmarks
+export default Home
+

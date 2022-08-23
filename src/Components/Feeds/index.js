@@ -5,8 +5,10 @@ import Post from "../../Components/Post/index"
 const index = () => {
   return (
    <>
+  
     <Tweetbox/>
     <Post/>
+    
    </>
   )
 }
