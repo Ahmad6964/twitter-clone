@@ -1,19 +1,38 @@
 .main-trend {
-  input{
-    width: 100%;
+  .search-icon{
+    position: relative;
+input{
+    width: 90%;
     background-color: #EFF3F4;
     border-radius: 30px;
     border-style: none;
-    height: 40px;
+    height: 43px;
     padding: 10px;
     margin-top: 5px;
+    margin-left: 12px;
+    
+  }
+  svg{
+    margin: 0px;
+    position: absolute;
+    right: 35px;
+    top: 17px;
+    color: #707E89;
+    font-size: 22px;
+  }
   }
   .trend-content {
     background-color: #F7F9F9;
-    margin-top: 10px;
-    // border-radius: 20px;
+    margin-top: 17px;
+    border-radius: 15px;
+    margin-left: 12px;
+    width: 90%;
     h3 {
-      padding: 20px;
+    padding: 10px;
+    font-weight: 800;
+    font-family: TwitterChirp;
+    color: #0F1419;
+    font-size: 2opx;
     }
     a{
         padding: 20px;
@@ -22,11 +41,19 @@
     .trend-card {
       cursor: pointer;
       padding-left: 20px;
-      padding-top: 10px;
+      padding-top: 5px;
       padding-bottom: 10px;
-      line-height: 1;
+      line-height: 0.3;
+      font-family: TwitterChirp;
+      color: #A2ABB2;
+      font-size: 14px;
       &:hover {
         background-color: #EFF1F1;
+      }
+      h4{
+        color: #0F1419;
+        font-size: 18px;
+        font-weight: 700;
       }
     }
   }

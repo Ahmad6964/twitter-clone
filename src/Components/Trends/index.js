@@ -1,14 +1,17 @@
 import React from "react";
 import "../../Components/Trends/style.scss";
 import { Trend } from "../../Mapapi/Trendapi";
-import {BiSearch} from "react-icons/bi"
+import { BiSearch } from "react-icons/bi";
 
 const index = () => {
   return (
     <>
       <div className="main-trend">
         <div className="container">
-          <input type="text"  placeholder="Search Twitter" />
+          <div className="search-icon">
+            <BiSearch />
+            <input type="text" placeholder="Search Twitter" />
+          </div>
           <div className="trend-content">
             <h3>Trends for you</h3>
             {Trend.map((item) => {

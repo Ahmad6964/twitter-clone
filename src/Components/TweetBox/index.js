@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "../../img/login.png";
+import me from "../../img/me.jpg";
 import "../../Components/TweetBox/style.scss";
 import { GoFileMedia } from "react-icons/go";
 import { AiOutlineFileGif } from "react-icons/ai";
@@ -19,7 +19,7 @@ const index = () => {
       <div className="main-tweetbox">
       
         <div className="tweet">
-          <img src={profile} alt="" />
+          <img src={me} alt="" />
           <input type="text" placeholder="What`s happening?" />
         </div>
         <div className="icons">

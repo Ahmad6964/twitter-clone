@@ -24,7 +24,7 @@ const index = () => {
               <div>             
                 {/* onClick={()=>setColor(true)} className={color ? "new-color" : ""} */}
                 <RiHome7Fill />
-                <li><Link to="/">Home</Link></li>
+                <li><Link to="/home">Home</Link></li>
               </div>
               <div>
                 <FiHash />

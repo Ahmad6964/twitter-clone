@@ -14,6 +14,26 @@
   }
   .text-div {
     height: fit-content;
+    .name-icon{
+      display: flex;
+      margin-bottom: 0px;
+      h6{
+        margin: 0px;
+        
+      }
+      svg{
+        color: #1D9BF0;
+        margin: 3px;
+        margin-left: 1px;
+      }
+      p{
+        margin-bottom :0px;
+        margin-left: 1px;
+        color: #7B8892;
+        font-size: 14px;
+      }
+      
+    }
     img {
       width: 100%;
       height: 50%;
@@ -24,6 +44,18 @@
       display: flex;
       justify-content: space-between;
       margin-top: 20px;
+      font-size: 10px;
+      color: #657580;
+      
+      .icon-text{
+        display: flex;
+        font-size: 12px;
+        font-size: small;
+      }
+      
+    }
+    p{
+      font-size: 14px;
     }
   }
 }
